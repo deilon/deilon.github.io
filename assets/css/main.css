@@ -1,0 +1,373 @@
+/* --------------------------------------------------------
+Style Sheet for Developer Portfolio
+
+version: 1.0
+last modified: mm/dd/yy
+author: Deilon Cutamora
+email: dloncutamora@gmail.com
+website: http://github.deilon.io
+----------------------------------------------------------*/
+/* -----------------------------------------------------------
+CONTENTS:
+0. Resets & General
+1. Nav
+2. Section Top
+3. Section About
+4. Section Works
+5. Section Hire
+6. Section Social
+7. Footer
+------------------------------------------------------------*/
+
+/**********************************
+***********************************
+0. Resets
+***********************************
+**********************************/
+body {
+    color: #707070 !important;
+    overflow-x: hidden !important;
+    position: relative;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+
+a {
+    color: #707070;
+}
+a:hover {
+    color: #707070;
+    cursor: pointer;
+    text-decoration: none;
+}
+.mb-14 {
+    margin-bottom: 14px;
+}
+
+
+/**********************************
+***********************************
+1. Nav
+***********************************
+**********************************/
+nav {
+    padding: 37px 0px;
+    vertical-align: middle;
+}
+nav ul li {
+    display: inline-block; 
+    margin-right: 68px;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+.social-nav {
+    margin-top: -5px;
+}
+.social-nav a {
+    margin-left: 15px;
+}
+.nav-phone nav {
+    margin-top: -5px;
+}
+.nav-phone nav .menu {
+    background: #FFF;
+    border: 1px solid #707070;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 11px 17px 11px 17px;
+}
+.nav-phone nav .social-nav {
+    margin-top: 0 !important;
+}
+
+
+/**********************************
+***********************************
+2. Section Top
+***********************************
+**********************************/
+.section-top {
+    height: 678px;
+}
+.section-top .row {
+    padding-top: 60px;
+}
+.section-top img {
+    border-radius: 6px;
+}
+
+.section-top h1 {
+    font-size: 25px;
+    margin: 0px !important;
+}
+.section-top p {
+    font-size: 16px;
+    margin: 15px 0px;
+}
+.skill-sets {
+    font-size: 9px;
+    padding: 8px 19px;
+    border: 1px solid #707070;
+    border-radius: 3px;
+    margin-right: 14px;
+}
+.resume {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 3px 15px;
+    background: #E2E2E2;
+    border-radius: 3px;
+}
+.resume .icon {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.resume .m-semibold {
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+@media (max-width: 767px) {
+    .profile-details {
+        text-align: center;
+    }
+    .skill-sets {
+        font-size: 6px;
+        border: 1px solid #707070;
+        border-radius: 3px;
+        margin: 0px 7px !important;
+    }
+    .resume {
+        display: inline-block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+
+/**********************************
+***********************************
+3. Section About
+***********************************
+**********************************/
+.section-about {
+    position: relative;
+}
+
+.section-about h1 {
+    margin-bottom: 30px !important;
+}
+@media (max-width: 767px) {
+    .section-about h1 {
+        font-size: 36px;
+    }
+}
+@media (min-width: 768px) {
+    .section-about h1 {
+        font-size: 59px;
+    }
+}
+@media (min-width: 1140px) {
+    .section-about h1 {
+        font-size: 66px;
+    }
+}
+
+.section-about p {
+    font-size: 16px;
+    line-height: 2;
+}
+@media (min-width: 768px) {
+    .section-about .skill-ranges { 
+        margin-top: 50px;
+    }
+}
+@media (min-width: 1140px) {
+    .section-about .skill-ranges { 
+        margin-top: 100px;
+    }
+}
+
+
+.section-about .skill-bar {
+    width: 100%;
+    background: #E2E2E2;
+    margin-bottom: 45px;
+    display: block;
+}
+@media (min-width: 768px) {
+    .section-about .skill-bar { 
+        margin-bottom: 35px;
+    }
+}
+
+.section-about .skill-level {
+    background: #707070;
+    color: #E2E2E2;
+    font-size: 16px;
+    padding: 5px 20px;
+}
+
+
+/**********************************
+***********************************
+4. Section Works
+***********************************
+**********************************/
+.section-works {
+    margin-top: 300px;
+}
+.repo-card {
+    border: 1px solid #707070;
+    border-radius: 4px;
+    padding: 18px 23px;
+    margin-bottom: 30px;
+}
+.section-works h2 {
+    font-size: 19px;
+    margin-top: 15px;
+}
+.section-works p {
+    font-size: 14px;
+}
+.repo-stats p {
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+
+/**********************************
+***********************************
+5. Section Hire
+***********************************
+**********************************/
+.section-hire {
+    margin-top: 300px;
+}
+@media (max-width: 767px) {
+    .section-hire p {
+        font-size: 16px
+    }
+}
+@media (min-width: 768px) {
+    .section-hire p {
+        font-size: 19px;
+    }
+}
+
+.section-hire .hire-details {
+    font-size: 19px;
+    background: #F5F7FA;
+    padding: 39px 38px 40px 29px;
+    border-radius: 4px;
+    line-height: 1.8;
+}
+.section-hire .hire-details p a {
+    color: #0F4BF1;
+}
+.section-hire .hire-details p a:hover {
+    text-decoration: underline;
+}
+
+
+/**********************************
+***********************************
+6. Section Social
+***********************************
+**********************************/
+.section-social {
+    margin-top: 180px;
+}
+.section-social .row [class*="col-"] {
+    margin-bottom: 35px;
+}
+
+@media (max-width: 767px) {
+    .section-social h3 {
+        font-size: 26px;
+    }
+}
+@media (min-width: 768px) {
+    .section-social h3 {
+        font-size: 39px;
+    }
+}
+
+
+.section-social a {
+    padding: 10px 25px;
+    border: 1px solid #707070;
+    border-radius: 10px;
+}
+.section-social .social-name p {
+    margin: 0 !important;
+}
+
+@media (min-width: 768px) {
+    .section-social .row div[class*="col-"] {
+        margin-bottom: 50px;
+    }
+    .section-social .social-name h2 {
+        font-size: 49px;
+    }
+    .section-social .social-name p {
+        font-size: 22px;
+    }
+    .social-icon span::before {
+        font-size: 99px;
+    }
+}
+@media (min-width: 992px) {
+    .section-social .social-name h2 {
+        font-size: 25px;
+    }
+    .section-social .social-name p {
+        font-size: 11px;
+    }
+    .social-icon span::before {
+        font-size: 50px;
+    }
+}
+
+
+/**********************************
+***********************************
+7. Section Footer
+***********************************
+**********************************/
+footer {
+    margin-top: 70px;
+}
+.footer-top {
+    padding: 40px 0px;
+    background: #747474;
+    color: #FFF;
+}
+@media (min-width: 768px) {
+    .footer-top .row [class*="col-"] {
+        margin-bottom: 30px;
+    }
+}
+
+.footer-top p {
+    font-size: 23px;
+}
+@media (max-width: 767px) {
+    .footer-top p.m-bold {
+        font-size: 18px;
+    }
+}
+
+.footer-bottom {
+    padding: 15px 0px;
+    background: #5A5A5A;
+    color: #FFF;
+}
+.footer-bottom p {
+    font-size: 12px;
+    margin: 0;
+}
