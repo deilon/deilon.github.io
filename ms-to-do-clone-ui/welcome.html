@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/11.0.0/css/fabric.min.css"/>
+    <link rel="stylesheet" href="css/welcome.css">
+</head>
+<body class="ms-fabric" dir="ltr">
+    
+    <main>
+        <p id="welcome">Welcome to Cloned To Do</p>
+        <a id="signin-btn" href="#">Sign in</a> 
+        <span>or</span>
+        <a id="signup-btn" href="#">Sign up</a>
+        <p id="welcome-bottom">This cloned Microsoft To Do app <br> doesn't possess OAuth authentication.</p>
+    </main>
+
+    <div id="popsignup" class="overlay">
+        <div class="popscontent">
+            <div class="welcome-dialog">
+                <p>Create dummy account :)</p>
+                <form action="">
+                    <input type="text" name="name" id="name" placeholder="Name">
+                    <input type="email" name="email" id="email" placeholder="Email">
+                    <input type="password" name="password" id="password" placeholder="Password">
+                    <button type="submit">Sign up</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="popsignin" class="overlay">
+        <div class="popscontent">
+            <div class="welcome-dialog">
+                <p>Sign in your dummy account :)</p>
+                <form action="">
+                    <input type="email" name="email" id="email" placeholder="Email">
+                    <input type="password" name="password" id="password" placeholder="Password">
+                    <button type="submit">Sign in</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
